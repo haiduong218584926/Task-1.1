@@ -1,0 +1,18 @@
+#weight th {
+    color: white;
+    background-color: aqua;
+}
+#weight tr:nth-child(even){background-color: whitesmoke;}
+#weight tr:hover{background-color: bisque;}
+
+ul {
+    list-style-type: lower-alpha;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}

@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="pagestyling.css">
+        <style>
+            body {
+                font-family: 'Arial Narrow';
+                font-size: 14;
+            }
+            h1 {
+                text-align: center;
+            }
+        </style>
         <title>
             My AWESOME webpage!
         </title>
     </head>
 
     <body>
-        <h1> Welcome! </h1>
-        <h2> Welcome! </h2>
-        <h3> Welcome! </h3>
-        <h4> Welcome! </h4>
-        <h5> Welcome! </h5>
-        <p> My portfolio is here! </p>
+        <h1 style="color:blue"> Welcome! (this color blue is achieved using css. Center alignment is using internal styles) </h1>
+        <p> My portfolio is here! This entire body content uses Arial Narrow font and font size 14px </p>
+        <a href="https://www.youtube.com/" target="_blank"> 
+            This is a link to Youtube 
+        </a>
+        <p> Here I use image of an anime girl under image html tag: </p>
+        <img src="https://as1.ftcdn.net/v2/jpg/05/68/52/38/1000_F_568523814_e10EvETwizUqX74fDJsE0FJ2GolnOKsk.jpg">
+
+        <p> The following is an unordered list of things I have to learn this year </p>
+        <ul>
+            <li> html/css/js </li>
+            <li> python </li>
+            <li> C# programming and Unity game engine </li>
+        </ul>
+        <p> Here I embed a youtube video about an in-development game that I follow: </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5BBg3BTbcLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p> Here I use table tag to describe my weight loss progress over the months (styling is managed by external css file) </p>
+        <table id="weight">
+            <tr>
+                <th>month</th>
+                <th>weight</th>
+            </tr>
+            <tr>
+              <td>May</td>
+              <td>90kg</td>
+            </tr>
+            <tr>
+              <td>June</td>
+              <td>88kg</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>85kg</td>
+            </tr>
+            <tr>
+                <td>Now</td>
+                <td>84kg</td>
+            </tr>
+          </table>
+          <p> This is a form people can use to get in contact with me using html form tag: </p>
+          <form>
+            <label>Name: </label>
+            <input type="text" required><br>
+            <label>Email: </label>
+            <input type="email" required><br>
+            <label>Message: </label>
+            <input type="message" required><br>
+            <input type="submit" value="Send">
+          </form>
+          <footer>
+            <p>&copy; 2023 My AWESOME website</p>
+          </footer>
+
     </body>
 </html>
